@@ -1,0 +1,14 @@
+2025-04-17 15:47:18,674 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2025-04-17 15:47:18,674 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from D:\naturals\venv\Lib\site-packages\instabot\bot\bot.py
+2025-04-17 15:51:45,983 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2025-04-17 15:51:48,600 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2025-04-17 15:51:51,057 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2025-04-17 15:51:53,517 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2025-04-17 15:51:55,565 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2025-04-17 15:52:05,912 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2025-04-17 15:52:05,912 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXFZP3YxA1-S3kRNSCltEPAHJSzO0iwNgTTFwcqnrl04HEmqz3TtX-zWFuk3tSjUdOlxwxo/AfzdTnIp8tQPUHOEZg7DfNzwQmXB_RTMVl1glUpZBN-yVxg54oqyKDTnesY7yglvF0fKKtUfomjkfg/","api_path":"/challenge/AXFZP3YxA1-S3kRNSCltEPAHJSzO0iwNgTTFwcqnrl04HEmqz3TtX-zWFuk3tSjUdOlxwxo/AfzdTnIp8tQPUHOEZg7DfNzwQmXB_RTMVl1glUpZBN-yVxg54oqyKDTnesY7yglvF0fKKtUfomjkfg/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2025-04-17 15:52:05,912 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2025-04-17 15:52:05,912 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2025-04-17 15:52:05,912 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2025-04-17 16:00:04,151 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2025-04-17 16:00:04,151 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'generated_image.jpg' is not uploaded.
