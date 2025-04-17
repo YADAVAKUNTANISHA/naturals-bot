@@ -24,9 +24,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run auto_post script
-        env:
-          INSTAGRAM_USERNAME: ${{ secrets.INSTAGRAM_USERNAME }}
-          INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD }}
-        run: |
-          python auto_post.py
+          - name: Run auto_post script
+          env:
+            INSTAGRAM_USERNAME: ${{ secrets.INSTAGRAM_USERNAME }}
+            INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD }}
+          run: |
+            python /home/runner/work/naturals-bot/naturals-bot/auto_post.py
+        
